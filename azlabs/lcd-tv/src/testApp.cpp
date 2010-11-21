@@ -33,7 +33,7 @@ void testApp::draw(){
 
 //--------------------------------------------------------------
 void testApp::keyPressed(int key){
-    int channel = key - '0';
+    unsigned int channel = key - '0';
 
     if (channel < 0 || channel >= m_Channels.size()) {
         channel = 0;
