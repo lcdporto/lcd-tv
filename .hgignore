@@ -1,0 +1,23 @@
+# Ignore openframeworks app folders
+^addonsExamples
+^examples
+
+# Ignore build folder
+^azlabs/lcd-tv/obj
+
+# Ignore text editor backups
+.*~$
+
+# Ignore codeblocks workspace preferences files
+.*\.depend$
+.*\.layout$
+
+# Ignore binary targets (linux)
+^azlabs/lcd-tv/bin/lcd-tv$
+^azlabs/lcd-tv/bin/lcd-tv_debug$
+
+# Ignore binary libs (linux)
+^azlabs/lcd-tv/bin/libs/
+
+# Ignore binary data files
+^azlabs/lcd-tv/bin/data/channels/
